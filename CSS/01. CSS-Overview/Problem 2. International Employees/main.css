@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    border-color: gray;
+    border: none;
+    width: 500px;
+}
+
+td {
+    padding: 7px;
+}
+
+img {
+    height: 15px;
+}
+
+thead {
+    background: linear-gradient(#59bd06, #629f4b);
+}
+
+thead td {
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0e2;
+}

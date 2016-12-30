@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Last Name</title>
+    <style>
+        html{
+            font-family: Sans-Serif;
+        }
+        table td:nth-child(odd) {
+            text-align:right;
+            font-weight:bold;
+        }
+        table td:nth-child(2){
+           width:60px;
+        }
+        td{
+            padding: 5px;
+        }
+        table, td {
+            border-collapse: collapse;
+            border: 1px solid #777;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border=1>
+            <tr>
+                <td>
+                    <label for="ln" >Last Name</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="ln" style="width:260px">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="fn" >First Name</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="fn" style="width:260px">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="ad">Address</label>
+                </td>
+                <td colspan="3">
+                    <textarea rows="3" id="ad" style="resize:none;width:258px;"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="cty" >City</label>
+                </td>
+                <td id="city"><input type="text" id="cty" style="width:100px">
+                    <td style="text-align:center;width:30px">
+                    <label for="st">State</label>
+                    </td>
+                    <td><input type="text" id="st" style="width:95px">
+                    </td>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="zip" >Zip/Postal Code</label></td>
+                <td colspan="3"><input type="text" id="zip" style="width:80px"></td>
+            </tr>
+            <tr>
+                <td><label for="count" >Country</label></td>
+                <td colspan="3">
+                    <select>
+                    <option>Bulgaria</option>
+                    <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone" >Phone</label></td>
+                <td colspan="3">(+<input type="text" id="phone" style="width:60px">)<input type="text" style="width:60px">-<input type="text" style="width:107px"></td>
+            </tr>
+            <tr>
+                <td><label for="em" >E-mail</label></td>
+                <td colspan="3"><input type="email" id="em" style="width:260px"></td>
+            </tr>
+            <tr>
+                <td><label>Birth date</label></td>
+                <td colspan="3" style="font-size:14px"><label> Month <input type="text" style="width:25px"></label><label> Day <input type="text" style="width:25px"></label><label> Year(4 digit) <input type="text" style="width:40px"></label></td>
+            </tr>
+            <tr>
+                <td><label for="gn" >Gender</td>
+                <td colspan="3">
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Starting date</td>
+                <td colspan="3"><input type="radio" name="start">Spring 2006 <input type="radio" name="start">Summer 2006</td>
+            </tr>
+            <tr>
+                <td><label for="com">Comments/Questions</label></td>
+                <td colspan="3"><textarea id="com" style="resize:none;width:260px"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align:center;background-color:paleturquoise"><input type="submit" value="Sumbit"> <input type="reset" value="Clear This Form"</td>
+            </tr>
+            </table>
+    </form>
+</body>
+</html>

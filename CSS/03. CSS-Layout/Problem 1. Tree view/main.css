@@ -1,0 +1,25 @@
+
+
+.sublist{
+    display: none;
+    color: grey;
+}
+
+dt{
+    width: 60px;
+    cursor: pointer;
+}
+
+dl{
+    margin: 0px;   
+    width: 150px;
+}
+
+dt:hover{
+    text-decoration: underline;
+}
+
+dt:hover + .sublist{
+ display: block;
+}
+

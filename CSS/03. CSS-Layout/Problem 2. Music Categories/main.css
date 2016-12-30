@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+}
+.box{
+    width: 400px;
+    height: 120px;
+    border: 1px solid gray;
+    margin-top: 50px;
+    background: white;
+}
+
+img{
+    position: absolute;
+}
+
+p{
+    margin-left: 150px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.button{
+    width: 78px;
+    height: 28px;
+    border: none;
+    background-image: url("img/button.png");
+    background-position-y: -2px;
+    background-position-x: -2px;
+    color: white;
+}
+.buttons{
+    padding-left: 200px;
+    margin-top: -10px;
+}
+.wrap{
+    background-color:#EEEEEE;
+    width: 420px;
+    padding: 10px;
+}

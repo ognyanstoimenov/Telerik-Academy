@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <style>
+        *{
+            text-shadow:1px 1px 5px;
+            font-family:"Arial"
+        }
+        
+        td{
+            text-align: center;
+            font-size:40px;
+            color:#6A1B9A;
+        }
+        table td{
+            border-style:solid;
+            border-width:2px;
+            border-color:#FF5252;
+
+        }
+    </style>
+    <body>
+        <table style="width:250px; height:250px; border-color:red; border-collapse:collapse; border-width:3px; border-style:solid;" >
+            <tr>
+                <td colspan="4" style="height:50px" > 
+            <form method="GET">
+                <input style="width:250px;height:50px;font-size:25px;color:#6A1B9A;text-align:right" type="text" pattern="\d{1,18}" maxlength="18" title="Enter number here!" autocomplete="off" >
+            </form>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>*</td>
+            </tr>
+            <tr>
+                <td colspan="2">0</td>
+                <td>.</td>
+                <td>/</td>
+            </tr>
+    </body>
+</html>

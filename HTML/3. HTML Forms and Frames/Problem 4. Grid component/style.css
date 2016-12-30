@@ -1,0 +1,54 @@
+html{
+    font-family:"Trebuchet MS";
+    font-size:12px;
+}
+
+thead, tfoot{
+    background: linear-gradient(#eee, #ccc);
+}
+a{
+    text-decoration: none;
+}
+table td {
+    padding:4px;
+    padding-left:7px;
+}
+.pages {
+    display: inline;
+}
+.pages *{
+    margin-right:5px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+td:nth-child(2){
+    width:240px;
+} 
+td:nth-child(3), td:nth-child(4), td:nth-child(5){
+    width:140px;
+}
+td:nth-child(6){
+    width: 70px;
+} 
+
+td:first-child input{
+    width:25px;
+}
+td:nth-child(2) input{
+    width: 120px;
+}
+td:nth-child(3) input{
+    width: 80px;
+}
+td:nth-child(4) input{
+    width: 100px;
+}
+td:nth-child(5) input{
+    width: 80px;
+}
+span:last-child {
+    text-align: right;
+}
