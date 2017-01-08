@@ -115,7 +115,7 @@
 			result6.PrintStudents("Students with atleast one excellent mark: ");
 
 			//14. Extract students with two marks
-			var resultTwoMarks = studentList.Where(x => x.Marks.Where(mark => mark == 2).Count() == 2);
+			var resultTwoMarks = studentList.Where(x => x.Marks.Count(mark => mark == 2) == 2);
 			resultTwoMarks.PrintStudents("Students with exactly two marks '2':");
 
 			//15. Extract marks
