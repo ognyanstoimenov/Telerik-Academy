@@ -9,11 +9,11 @@
 	{
 		static void Main()
 		{
-			Dog[] Dogs = GetDogs();
-			Cat[] Cats = GetCats();
-			Frog[] Frogs = GetFrogs();
-			Kitten[] Kittens = GetKittens();
-			Tomcat[] Tomcats = GetTomcats();
+			Animal[] Dogs = GetDogs();
+			Animal[] Cats = GetCats();
+			Animal[] Frogs = GetFrogs();
+			Animal[] Kittens = GetKittens();
+			Animal[] Tomcats = GetTomcats();
 
 			Dogs[0].MakeSound();
 			Console.WriteLine("Average Dog Age: " + Dogs.CalculateAverage());
@@ -33,7 +33,7 @@
 
 
 		#region GetAnimals
-		private static Tomcat[] GetTomcats()
+		private static Animal[] GetTomcats()
 		{
 			return new Tomcat[]
 			{
@@ -44,7 +44,7 @@
 			};
 		}
 
-		private static Kitten[] GetKittens()
+		private static Animal[] GetKittens()
 		{
 			return new Kitten[]
 			{
@@ -55,7 +55,7 @@
 			};
 		}
 
-		private static Frog[] GetFrogs()
+		private static Animal[] GetFrogs()
 		{
 			return new Frog[]
 			{
@@ -64,7 +64,7 @@
 			};
 		}
 
-		private static Dog[] GetDogs()
+		private static Animal[] GetDogs()
 		{
 			return new Dog[]
 			{
@@ -75,7 +75,7 @@
 			};
 		}
 
-		private static Cat[] GetCats()
+		private static Animal[] GetCats()
 		{
 			return new Cat[]
 			{
