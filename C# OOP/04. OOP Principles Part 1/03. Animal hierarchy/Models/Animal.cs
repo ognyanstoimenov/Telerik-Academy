@@ -23,7 +23,7 @@
 
 		public void MakeSound()
 		{
-			string breed = this.GetType().ToString().Substring(this.GetType().ToString().LastIndexOf('.') + 1, this.GetType().ToString().Length - this.GetType().ToString().LastIndexOf('.') - 1);
+			string breed = this.GetType().Name;
 			System.Console.WriteLine($"The {breed} {this.Name} said {this.Sound}");
 		}
 	}
