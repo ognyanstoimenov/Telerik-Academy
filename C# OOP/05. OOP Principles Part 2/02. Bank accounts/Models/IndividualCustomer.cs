@@ -11,7 +11,6 @@
 		public IndividualCustomer(string name,string lastName, string phone) : base(name, phone)
 		{
 			this.LastName = lastName;
-			this.CustomerType = CustomerType.Individual;
 		}
 
 		public string LastName { get; private set; }

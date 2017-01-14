@@ -11,6 +11,5 @@
 		string Name { get; }
 		string Phone { get; }
 		IList<Account> Accounts { get; }
-		CustomerType CustomerType { get; }
 	}
 }

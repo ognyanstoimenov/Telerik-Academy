@@ -11,7 +11,6 @@
 		public CompanyCustomer(string name, string address, string phone) : base(name, phone)
 		{
 			this.Address = address;
-			this.CustomerType = CustomerType.Comany;
 		}
 
 		public string Address { get; private set; }

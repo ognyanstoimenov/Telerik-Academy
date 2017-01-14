@@ -14,11 +14,11 @@
 
 		public override decimal CalculateInterest(int months)
 		{
-			if (this.Customer.CustomerType == CustomerType.Comany)
+			if (this.Customer is ICompany)
 			{
 				months = months - 2;
 			}
-			else if (this.Customer.CustomerType == CustomerType.Individual)
+			else if (this.Customer is IIndividual)
 			{
 				months = months - 3;
 			}

@@ -15,12 +15,12 @@
 
 		public override decimal CalculateInterest(int months)
 		{
-			if (this.Customer.CustomerType == CustomerType.Individual)
+			if (this.Customer is IIndividual)
 			{
 				months = months - 6;
 				return base.CalculateInterest(months);
 			}
-			else
+			else // (this.Customer is ICompany)
 			{
 				decimal sum = 0;
 				for (int i = 0; i < months; i++)

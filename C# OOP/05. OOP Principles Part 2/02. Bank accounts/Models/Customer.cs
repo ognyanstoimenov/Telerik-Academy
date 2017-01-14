@@ -21,8 +21,6 @@
 
 		public IList<Account> Accounts { get; protected set; }
 
-		public CustomerType CustomerType { get; protected set; }
-
 	}
 }
 

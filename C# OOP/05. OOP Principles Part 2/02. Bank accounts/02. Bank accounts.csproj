@@ -53,7 +53,6 @@
     <Compile Include="Contracts\IIndividual.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\CompanyCustomer.cs" />
-    <Compile Include="Models\CustomerType.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DepositAccount.cs" />
     <Compile Include="Models\IndividualCustomer.cs" />
