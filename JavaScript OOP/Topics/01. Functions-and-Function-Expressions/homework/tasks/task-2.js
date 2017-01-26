@@ -7,35 +7,7 @@
 */
 
 function solve() {
-	function isPrime(number) {
-		if(number < 2){
-			return false;
-		}
-		for (let i = 2; i <= Math.sqrt(number); i+=1) {
-			if (number % i == 0) {
-				return false;
-			}
-		}
-		return true;
-	}
 	return function findPrimes() {
-		let start = +arguments[0];
-		let end = +arguments[1];
-		if(start === undefined || end === undefined || isNaN(start) || isNaN(end)){
-			throw "Error";
-		}
-		let nums = [];
-		for(let j = start;j<=end;j++){
-			nums.push(j);
-		}
-		let primes = [];
-		for (let i = 0; i < nums.length; i++) {
-			if (isPrime(nums[i])){
-				primes.push(nums[i]);
-			}
-		}
-		return primes;
-
 	}
 }
 
