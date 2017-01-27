@@ -23,11 +23,6 @@ bld/
 [Ll]og/
 
 #Upload only tasks JavaScript OOP
-"JavaScript OOP"/*
-!.gitignore
-!LICENSE
-!README.md
-!"JavaScript OOP"/Topics/
 
 
 # Visual Studio 2015 cache/options directory
