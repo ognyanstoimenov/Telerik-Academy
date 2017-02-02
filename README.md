@@ -92,6 +92,3 @@
 
 ### II. JavaScript OOP
 <h6>January 2017</h6>
-  
-  
-> return; return;
