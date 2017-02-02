@@ -9,7 +9,7 @@
 |                       [CSS](#css)                     |    89.29    |     8th     | With excellence |
 |                   [C# OOP](#iii-c-oop)                |    47.65    |     89th    |       Yes       |
 | [JavaScript Fundamentals](#i-javascript-fundamentals) |    89.66    |     22nd    | With excellence |
- * Was featured in Telerik Academy's Top Students of Module 1.
+ * Featured in Telerik Academy's top 15 students of Module 1.
 
 ## Module 2
 |                          Course                       |    Points   | Place in TA |     Passed?     |
@@ -92,3 +92,6 @@
 
 ### II. JavaScript OOP
 <h6>January 2017</h6>
+
+-. [Workshops](/04. JavaScript OOP/Workshops)    
+1. [Functions and Function Expressions](/04. JavaScript OOP/01. Functions and Function Expressions)
