@@ -1,4 +1,4 @@
-#   Telerik Academy 2016/2017 Autumn
+<img src="https://s23.postimg.org/3smim7p23/wwwww.png" width="550"/>
 
 ## Module 1
 |                          Course                       |    Points   | Place in TA |     Passed?     |
