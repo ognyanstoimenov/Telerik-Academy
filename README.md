@@ -93,5 +93,8 @@
 ### II. JavaScript OOP
 <h6>January 2017</h6>
 
--. [Workshops](/04. JavaScript OOP/Workshops)    
+* [Workshops](/04. JavaScript OOP/Workshops)    
+
 1. [Functions and Function Expressions](/04. JavaScript OOP/01. Functions and Function Expressions)
+* [Closures and Scope](/04. JavaScript OOP/02. Closures and Scope)
+* [Modules and Patterns](/04. JavaScript OOP/03. Modules and Patterns)
