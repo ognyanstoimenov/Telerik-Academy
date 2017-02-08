@@ -5,22 +5,22 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Academy")]
+[assembly: AssemblyTitle("02. TestDeck (NUnit)")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Academy")]
+[assembly: AssemblyProduct("02. TestDeck (NUnit)")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("Academy.Tests")]
+
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("37ba7d68-d803-4820-9586-8efc016c9144")]
+[assembly: Guid("91fae361-87c7-4fff-8fb8-2ac54682c9cf")]
 
 // Version information for an assembly consists of the following four values:
 //
