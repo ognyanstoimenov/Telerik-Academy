@@ -110,3 +110,4 @@
 ### III. JavaScript UI & DOM
 
 1. [DOM Operations](05. JavaScript UI & DOM/06. DOM Operations)
+* [Event Model](05. JavaScript UI & DOM/07. Event Model)
