@@ -12,10 +12,12 @@
  * Featured in Telerik Academy's top 15 students of Module 1.
 
 ## Module 2
-|                          Course                       |    Points   | Place in TA |     Passed?     |
-|:-----------------------------------------------------:|:-----------:|:-----------:|:---------------:|
-|            [C# Unit Testing](#iv-c-unit-testing)      | In progress | In progress |    In progress  |
-|             [JavaScript OOP](#ii-javascript-oop)      | In progress | In progress |    In progress  |
+|                                       Course                                 |    Points   | Place in TA |      Passed?     |
+|:----------------------------------------------------------------------------:|:-----------:|:-----------:|:----------------:|
+|                    [C# Unit Testing](#iv-c-unit-testing)                     |    45.65    |     54th    |        Yes       |
+|                    [JavaScript OOP](#ii-javascript-oop)                      |    65.40    |     76th    |  With excellence |
+|        [High-Quality Code - Part 1](#v-high-quality-code---part-1)           | In progress | In progress |    In progress   |
+|                [JavaScript UI & DOM](#iii-javascript-ui-dom)                 | In progress | In progress |    In progress   |
 
 
 # Homework
@@ -60,6 +62,10 @@
 
 1. [Unit Testing](/04. Unit Testing/01. Unit Testing)
 
+### V. High-Quality Code - Part 1
+
+1. [Code Formatting](/05. High-Quality Code - Part 1/02. Code Formatting)
+
 ## HTML
 <h6>October 2016</h6>
 
@@ -100,3 +106,7 @@
 1. [Functions and Function Expressions](/04. JavaScript OOP/01. Functions and Function Expressions)
 * [Closures and Scope](/04. JavaScript OOP/02. Closures and Scope)
 * [Modules and Patterns](/04. JavaScript OOP/03. Modules and Patterns)
+
+### III. JavaScript UI & DOM
+
+1. [DOM Operations](05. JavaScript UI & DOM/06. DOM Operations)
