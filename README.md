@@ -16,11 +16,11 @@
 |:----------------------------------------------------------------------------:|:-----------:|:-----------:|:----------------:|
 |                    [C# Unit Testing](/04.%20C%23%20Unit%20Testing)                     |    45.65    |     54th    |        Yes       |
 |                    [JavaScript OOP](/04.%20JavaScript%20OOP)                      |    65.40    |     76th    |  With excellence |
-|        [High-Quality Code - Part 1](/High%20Quality%20Code%20-%20Part%201)           | In progress | In progress |    In progress   |
-|                [JavaScript UI & DOM]/05.%20JavaScript%20UI%20and%20DOM)                 | In progress | In progress |    In progress   |
+|        [High-Quality Code - Part 1](/05.%20High%20Quality%20Code%20-%20Part%201)           | In progress | In progress |    In progress   |                                  
+|                [JavaScript UI & DOM](/05.%20JavaScript%20UI%20%26%20DOM)                 | In progress | In progress |    In progress   |
 
 
-# Homework
+<!--# Homework
 
 
 ## C# #
