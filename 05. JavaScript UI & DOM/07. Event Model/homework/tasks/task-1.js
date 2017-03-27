@@ -9,15 +9,15 @@ Create a function that takes an id or DOM element and:
 
 function solve() {
   return function (selector) {
-    const element = (typeof selector === 'string') ? document.getElementById(selector) : selector;
+    var element = (typeof selector === 'string') ? document.getElementById(selector) : selector;
     if (!element instanceof HTMLElement) {
       throw Error();
     }
 
-    Array.from(element.getElementsByClassName('button')).forEach(x => x.innerHTML = 'hide');
+    /*Array.from(element.getElementsByClassName('button'))*/[].slice.apply(element.getElementsByClassName('button')).forEach(function(x){ x.innerHTML = 'hide'});
 
     element.addEventListener('click', function (e) {
-      const currBtn = e.target;
+      var currBtn = e.target;
 
       if (currBtn.className !== 'button') {
         return;

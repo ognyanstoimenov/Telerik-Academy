@@ -3,21 +3,21 @@
 ## Module 1
 |                          Course                       |    Points   | Place in TA |     Passed?     |
 |:-----------------------------------------------------:|:-----------:|:-----------:|:---------------:|
-|           [C# Fundamentals](#i-c-fundamentals)        |    92.10    |     1st     | With excellence |
-|                       [HTML](#html)                   |    86.08    |     12th    | With excellence |
-|               [C# Advanced](#ii-c-advanced)           |    96.94    |      2nd    | With excellence |
-|                       [CSS](#css)                     |    89.29    |     8th     | With excellence |
-|                   [C# OOP](#iii-c-oop)                |    47.65    |     89th    |       Yes       |
-| [JavaScript Fundamentals](#i-javascript-fundamentals) |    89.66    |     22nd    | With excellence |
- * Featured in Telerik Academy's top 15 students of Module 1.
+|           [C# Fundamentals](/01.%20C%23%20Fundamentals)        |    92.10    |     1st     | With excellence |
+|                       [HTML](/01.%20HTML)                   |    86.08    |     12th    | With excellence |
+|               [C# Advanced](/02.%20C%23%20Advanced)           |    96.94    |      2nd    | With excellence |
+|                       [CSS](/02.%20CSS)                     |    89.29    |     8th     | With excellence |
+|                   [C# OOP](03.%20C%23%20OOP)                |    47.65    |     89th    |       Yes       |
+| [JavaScript Fundamentals](/03.%20JavaScript%20Fundamentals) |    89.66    |     22nd    | With excellence |
+ * In Telerik Academy's top 15 students of Module 1.
 
 ## Module 2
 |                                       Course                                 |    Points   | Place in TA |      Passed?     |
 |:----------------------------------------------------------------------------:|:-----------:|:-----------:|:----------------:|
-|                    [C# Unit Testing](#iv-c-unit-testing)                     |    45.65    |     54th    |        Yes       |
-|                    [JavaScript OOP](#ii-javascript-oop)                      |    65.40    |     76th    |  With excellence |
-|        [High-Quality Code - Part 1](#v-high-quality-code---part-1)           | In progress | In progress |    In progress   |
-|                [JavaScript UI & DOM](#iii-javascript-ui-dom)                 | In progress | In progress |    In progress   |
+|                    [C# Unit Testing](/04.%20C%23%20Unit%20Testing)                     |    45.65    |     54th    |        Yes       |
+|                    [JavaScript OOP](/04.%20JavaScript%20OOP)                      |    65.40    |     76th    |  With excellence |
+|        [High-Quality Code - Part 1](/High%20Quality%20Code%20-%20Part%201)           | In progress | In progress |    In progress   |
+|                [JavaScript UI & DOM]/05.%20JavaScript%20UI%20and%20DOM)                 | In progress | In progress |    In progress   |
 
 
 # Homework

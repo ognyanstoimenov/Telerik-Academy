@@ -1,0 +1,101 @@
+.container {
+    background-color: rgb(38, 41, 44);
+    padding: 2px;
+    width: 650px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 340px;
+    width: 150px;
+    padding-right: 20px;
+    float: right;
+}
+
+.nav-tabs {
+    list-style: none;
+    border-collapse: collapse;
+}
+
+ul.nav-tabs {
+    padding: 0;
+}
+
+.code-lines li {
+    margin: 5px;
+}
+
+.nav-tabs li {
+    padding: 23px 0px 23px 0px;
+    background-color: rgb(60, 60, 60);
+    border: 1px solid wheat;
+    color: white;
+    padding-left: 40px;
+    visibility: hidden;
+}
+
+.nav-tabs li:first-child {
+    visibility: visible;
+}
+
+.nav-tabs:hover li {
+    visibility: visible;
+}
+
+.nav-tabs li:hover {
+    background-color: grey;
+}
+
+.nav-tabs li {
+    visibility: hidden;
+}
+
+nav.navigation {
+    border: 0;
+}
+
+span.selector {
+    color: lightgreen;
+}
+
+span.property {
+    color: lightblue;
+    margin-left: 20px;
+}
+
+.code-lines li {
+    color: white;
+}
+
+.value {
+    color: rgb(175, 125, 255);
+}
+
+.punctuation {
+    color: white;
+}
+
+.measure {
+    color: red;
+}
+
+.function {
+    color: darkred;
+}
+
+li:hover {
+    background-color: rgb(76, 83, 84)
+}
+
+li:hover span {
+    font-weight: bold;
+}
+
+li:hover>.selector {
+    font-style: italic;
+    text-decoration: underline;
+}

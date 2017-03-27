@@ -1,0 +1,101 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    width: 585px;
+    height: 640px;
+    padding: 5px;
+}
+
+.article {
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+    box-shadow: 0px 0px 5px grey;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 519px;
+}
+
+.main-image {
+    margin-left: -20px;
+}
+
+.timestamp {
+    float: right;
+    color: rgb(185, 200, 222);
+}
+
+.publisher {
+    margin: 10px;
+}
+
+.importance {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 0.5px solid grey;
+}
+
+.title {
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+    color: rgb(95, 95, 130);
+}
+
+.likes {
+    background: url("imgs/number.png");
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    display: inline-block;
+}
+
+.shares {
+    background: url("imgs/comment.png");
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    display: inline-block;
+    margin-left: 270px;
+}
+
+.comments {
+    background: url("imgs/share.png");
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer {
+    margin: 10px;
+    padding-top: 10px;
+    color: rgb(95, 95, 130);
+}
+
+.footer div {
+    display: inline-block;
+    height: 50px;
+}
+
+div.likes {
+    padding-left: 55px;
+    padding-top: 15px;
+}
+
+div.shares {
+    padding-left: 55px;
+    padding-top: 15px;
+}
+
+div.comments {
+    padding-left: 55px;
+    padding-top: 15px;
+}
