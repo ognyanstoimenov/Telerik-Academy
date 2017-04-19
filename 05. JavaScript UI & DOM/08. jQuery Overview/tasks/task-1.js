@@ -1,8 +1,8 @@
 /* globals $ */
 
-/* 
+/*
 
-Create a function that takes a selector and COUNT, then generates inside a UL with COUNT LIs:   
+Create a function that takes a selector and COUNT, then generates inside a UL with COUNT LIs:
   * The UL must have a class `items-list`
   * Each of the LIs must:
     * have a class `list-item`
@@ -15,29 +15,29 @@ Create a function that takes a selector and COUNT, then generates inside a UL wi
       * _Example:_
         * Valid COUNT values:
           * 1, 2, 3, '1', '4', '1123'
-        * Invalid COUNT values:
-          * '123px' 'John', {}, [] 
+        * Invalid COUNT values:<
+          * '123px' 'John', {}, []
 */
 
 function solve() {
-  return function (selector, count) {
-    var count = Number(count);
-    if (!count || count < 1 || typeof selector !== 'string') {
-      throw Error();
-    }
-    if (!$(selector)) {
-      return;
-    }
+    return function(selector, count) {
+        var count = Number(count);
+        if (!count || count < 1 || typeof selector !== 'string') {
+            throw Error();
+        }
+        if (!$(selector)) {
+            return;
+        }
+        $()
+        var itemsList = $("<ul class='items-list'/>");
 
-    var itemsList = $("<ul class='items-list'/>");
-    
-    for (var i = 0; i < count; i++) {
-      var $element = $("<li class='list-item'/>");
-      $element.html('List item #' + i);
-      $(itemsList).append($element)
+        for (var i = 0; i < count; i++) {
+            var $element = $("<li class='list-item'/>");
+            $element.html('List item #' + i);
+            $(itemsList).append($element);
+        }
+
+        $(itemsList).appendTo(selector);
     }
-    
-    $(itemsList).appendTo(selector);
-  }
 };
 module.exports = solve;
