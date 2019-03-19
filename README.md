@@ -18,8 +18,8 @@
 |                    [JavaScript OOP](/04.%20JavaScript%20OOP)              | 65.40 |     76th    |  With excellence |
 | [High-Quality Code - Part 1](/05.%20High%20Quality%20Code%20-%20Part%201) | 73.44 | 30th |    With excellence   |                                  
 |                [JavaScript UI & DOM](/05.%20JavaScript%20UI%20%26%20DOM)  | 47.20 | 105th |     With excellence   |
-| [High-Quality Code - Part 2](/06.%20High%20Quality%20Code%20-%20Part%202) |               In progress                  |    
-|                [JavaScript Applications](/06.%20JavaScript%20Applications)| In progress  |
+| [High-Quality Code - Part 2](/06.%20High%20Quality%20Code%20-%20Part%202) |               -                |    
+|                [JavaScript Applications](/06.%20JavaScript%20Applications)| - |
 
 
 
